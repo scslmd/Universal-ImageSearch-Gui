@@ -109,7 +109,7 @@ Search:
 		If (FoundAction = 2)
 			MouseMove, % FoundX, % FoundY, 0
 				
-        Log("Found " imageFile " at x:" foundX " y:" foundY)
+		Log("Found " imageFile " at x:" foundX " y:" foundY)
 		
 		If (StopIfFound = 1)
 			GoSub, Submit
